@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-08C8TTV8XD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-08C8TTV8XD');
+</script>
+  <meta charset="utf-8">
+  <title>Shailesh Pathak</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+
+  <body oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
+    <div id="yazı">█ █ █ <span style="color:black">█ █ █ █ █ █ █ █ █ █ </span>31%
+      <br>&gt; Site Coming Soon!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <br>&gt; -Shailesh Pathak<span id="imleç">█</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </div>
+  </body>
+
+</html>

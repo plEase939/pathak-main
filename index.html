@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shailesh Pathak</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+
+        #stars {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+        }
+
+        .star {
+            position: absolute;
+            background-color: #fff;
+            width: 2px;
+            height: 2px;
+            opacity: 0;
+            animation: twinkle 3s infinite alternate;
+        }
+
+        .content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            margin: 10px;
+            border-radius: 10px; /* Rounded edges */
+        }
+
+        h1 {
+            color: #fff;
+        }
+
+        @keyframes twinkle {
+            0%, 100% {
+                opacity: 0;
+            }
+            50% {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="stars"></div>
+    <div class="content">
+        <h1>Shailesh Pathak</h1>
+        <button onclick="window.location.href = 'https://uptime.pathak.biz/status/all';">Uptime Status</button>
+        <button onclick="window.location.href = 'https://workspaces.pathak.biz';">Zero Trust ARM</button>
+        <button onclick="window.location.href = 'https://pleasegaming.in';">Please Gaming</button>
+        <button onclick="window.location.href = 'https://learnwithshailesh.in';">LearnWithShailesh</button><br>
+	<button onclick="window.location.href = 'https://identity.pathak.biz';">Identity-Management</button>
+	<button onclick="window.location.href = 'https://jelly.pathak.biz';">Jellyfyn - Down</button>
+	<button onclick="window.location.href = 'https://app.netdata.cloud/?utm_source=website&utm_content=top_navigation_sign_in';">Cloud-Monitoring</button>
+	<button onclick="window.location.href = 'https://search.pathak.biz';">Search Engine</button>
+	<button onclick="window.location.href = 'https://secure.pathak.biz';">Zero Trust x64 - Down</button>
+	<button onclick="window.location.href = 'https://root1-cp.pathak.biz';">Webmin - CGNAT</button>
+    </div>
+    <script>
+        // Create random twinkling stars
+        const numStars = 200;
+        const starsContainer = document.getElementById('stars');
+        for (let i = 0; i < numStars; i++) {
+            const star = document.createElement('div');
+            star.className = 'star';
+            star.style.left = `${Math.random() * 100}%`;
+            star.style.top = `${Math.random() * 100}%`;
+            star.style.animationDuration = `${Math.random() * 2 + 1}s`; // Random duration
+            starsContainer.appendChild(star);
+        }
+    </script>
+</body>
+</html>
